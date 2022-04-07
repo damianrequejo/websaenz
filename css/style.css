@@ -13,6 +13,13 @@
         src: url("../fuentes/Gotham-Font/GothamLight.ttf");
     }
 
+/* Barra Principal */
+
+    .navbar-one {
+        background-color: var(--color-saenz);
+    }
+
+
 /* Header */
 
     .header-container {
@@ -358,7 +365,7 @@ form {
     }
 
     .item {
-        background-image: radial-gradient(var(--color-saenz-grisclaro),var(--color-saenz-celeste));
+        background-color: var(--color-saenz-grisclaro);
         border: 1px var(--color-saenz-grisclaro) solid;
         height: 200px;
     }
@@ -368,36 +375,11 @@ form {
         font-size: 1rem;
         font-weight: bold;
         text-align: center;
-        animation-duration: 3s;
-        animation-name: resaltar-texto;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes resaltar-texto {
-        0% {
-            color: white;
-        }
-        25% {
-            color: gray;
-        }
-        50% {
-            color: var(--color-saenz-grisclaro);
-        }
-        75% {
-            color: gray
-        }
-        100% {
-            color: white;
-        }
     }
 
     .item:hover {
-        background-image: radial-gradient(var(--color-saenz-celeste),var(--color-saenz-grisclaro));
-        height: 170px;
-        transition: height 3s;
+        background-color: var(--color-saenz-grisoscuro);
     }
-
-    
 
 /* Fin Tarjetas de Crédito */
 
