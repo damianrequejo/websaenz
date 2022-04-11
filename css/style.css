@@ -13,51 +13,51 @@
         src: url("../fuentes/Gotham-Font/GothamLight.ttf");
     }
 
-/* Header */
+/* Generales */
 
-    .header-container {
-        color: white;
-        max-width: 1600px;
+/* Botón Saenz */
+
+.button-bsz {
+    font-family: saenz-font;
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-saenz-celeste);
+    border-color: var(--color-saenz-celeste);
+}
+
+.button-bsz a {
+    color: white;
+}
+
+.button-bsz:hover {
+    font-family: saenz-font;
+    color: white;
+    text-decoration: none;
+    background-color: var(--color-saenz-grisoscuro);
+    border-color: var(--color-saenz-grisoscuro);
+}
+
+/* Fin Generales */
+
+
+/* Barra de Navegación */
+   
+    .header-bsz {
         font-family: saenz-font;
-        background-color: var(--color-saenz-celeste);
-        display: flex;
+        background-color: white;
+        max-width: 1600px;
     }
 
-    .header-top {
-        width: 90%;
-        display: flex;
-        padding: 10px 0;
-        /* Distribuir horizontalmente los elementos en todo su ancho */
-        justify-content:space-around;
-    }
-
-    .header-top a {
-        color: white;
+    .header-bsz a {
+        font-family: saenz-font;
         text-decoration: none;
     }
 
-    .header-down-menu a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    .header-down {
-        background-color: var(--color-saenz);
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        /* Distribuir horizontalmente los elementos en todo su ancho */
-        justify-content:space-around;
+    .dropdown-menu-bsz {
+        color: var(--color-saenz-grisoscuro);
     }
 
-    .header-down-logo {
-        justify-content: flex-start;
-    }
-
-    .header-down-menu {
-        justify-content: flex-end;
-        padding: 5px;
-    }
+/* Index - Carrousel */
 
     .carrousel-container {
         width: 100%;
@@ -65,8 +65,29 @@
         color: white;
         font-family: saenz-font;
         display: flex;
-
     }
+
+/* Grilla de Productos */
+    .grilla-productos-bsz {
+        max-width: 1600px;
+        padding: 10px;
+        margin: 0px;
+        background-color: var(--color-saenz-grisoscuro);
+    }
+
+/* Grilla de Canales Digitales */
+    .grilla-canales-bsz {
+        max-width: 1600px;
+        padding: 10px;
+        margin: 0;
+        background-color: var(--color-saenz);
+    }
+
+    .grilla-canales-row-bsz {
+        margin: 10px;
+    }
+
+
 
     .texto-container {
         color: black;
