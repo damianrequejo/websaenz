@@ -13,7 +13,6 @@
         src: url("../fuentes/Gotham-Font/GothamLight.ttf");
     }
 
-/* Generales */
 
 /* Botón Saenz */
 
@@ -394,7 +393,6 @@ form {
     .item:hover {
         background-color: var(--color-saenz-grisoscuro);
     }
-    
 
 /* Fin Tarjetas de Crédito */
 
