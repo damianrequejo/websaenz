@@ -1,0 +1,9 @@
+@import 'variables-globales';
+.footer {
+    background-color: $color-saenz;
+    max-width: $ancho-maximo;
+    font-family: saenz-font;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+}

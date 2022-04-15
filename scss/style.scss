@@ -1,0 +1,17 @@
+@import 'variables-globales';
+@import 'header';
+@import 'footer';
+@import 'botones';
+@import 'contacto';
+@import 'nosotros';
+@import 'cuentas';
+@import 'usuariosfinancieros';
+@import 'tarjetas';
+@import 'index';
+
+/* Incorporo la fuente Gotham */
+@font-face {
+    font-family: saenz-font;
+    src: url("../fuentes/Gotham-Font/GothamLight.ttf");
+}
+/* Fin incorporación fuente */

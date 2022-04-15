@@ -1,0 +1,81 @@
+@import 'variables-globales';
+.contacto {
+    font-family: saenz-font;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: $ancho-maximo;
+    div {
+        width: 75%;
+        max-width: $ancho-maximo;
+        padding: 10px;
+    }
+}
+form {
+    color: black;
+    font-family: saenz-font;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto-form {
+    border-radius: 3px;
+    width: 100%;
+    max-width: $ancho-maximo;
+    margin: 0 0 0 0;
+    padding: 0px;
+}
+.form-row {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-row input[type="text"], 
+.form-row select[name="tramite"],
+.form-row input[type="email"] {
+    background-color: #FFF;
+    border: 1px solid $color-saenz-grisclaro;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+.form-row label {
+    margin-bottom: 5px;
+}
+.form-row textarea {
+    font-size: 14px;
+    font-family: saenz-font;
+    border: 1px solid $color-saenz-grisoscuro;
+    border: 1px solid $color-saenz-grisclaro;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 0px;
+    min-height: 200px;
+    min-width: 100%;
+    resize: none;
+}
+.form-row .instructions {
+    color: #999;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: $color-saenz-celeste;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+    &:hover {
+        background-color: $color-saenz-grisclaro;
+    }
+    &:active {
+        background-color: $color-saenz-celeste;
+    }
+}

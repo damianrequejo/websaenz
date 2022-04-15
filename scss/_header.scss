@@ -1,0 +1,13 @@
+@import 'variables-globales';
+.header-bsz {
+    font-family: saenz-font;
+    background-color: white;
+    max-width: $ancho-maximo;
+    a {
+        font-family: saenz-font;
+        text-decoration: none;
+    }
+}
+.dropdown-menu-bsz {
+    color: $color-saenz-grisoscuro;
+}

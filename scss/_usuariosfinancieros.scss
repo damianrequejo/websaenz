@@ -1,0 +1,36 @@
+@import 'variables-globales';
+.usuariosfinancieros-portada {
+    height: 150px;
+    width: 100%;
+    max-width: $ancho-maximo;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.usuariosfinancieros {
+    font-family: saenz-font;
+    width: 100%;
+    max-width: $ancho-maximo;
+}
+.normas {
+    max-width: $ancho-maximo;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.usf-bcra-grid {
+    display: grid;  /* activo sistema de grillas */
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    align-items: center;
+    max-width: $ancho-maximo;
+}
+.usf-bcra-video {
+    padding: 30px;
+    justify-content: center;
+    max-width: $ancho-maximo;
+    width: 100%;
+}
