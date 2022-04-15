@@ -1,0 +1,27 @@
+@import 'variables-globales';
+.Tarjetas-Grilla {
+    display: grid;  /* activo sistema de grillas */
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto auto;
+    max-width: $ancho-maximo;
+    font-family: saenz-font;
+    padding-top: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: stretch;
+    align-items: center;
+}
+.item {
+    background-color: $color-saenz-grisclaro;
+    border: 1px $color-saenz-grisclaro solid;
+    height: 200px;
+    p {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    &:hover {
+        background-color: $color-saenz-grisoscuro;
+    }
+}

@@ -1,0 +1,86 @@
+@import 'variables-globales';
+.carrousel-container {
+    width: 100%;
+    max-width: $ancho-maximo;
+    color: white;
+    font-family: saenz-font;
+    display: flex;
+}
+.grilla-productos-bsz {
+    max-width: $ancho-maximo;
+    padding: 10px;
+    margin: 0px;
+    background-color: $color-saenz-grisoscuro;
+}
+.grilla-canales-bsz {
+    max-width: $ancho-maximo;
+    padding: 10px;
+    margin: 0;
+    background-color: $color-saenz;
+}
+.grilla-canales-row-bsz {
+    margin: 10px;
+}
+.texto-container {
+    color: black;
+    max-width: $ancho-maximo;
+    font-family: saenz-font;
+    display: flex;
+}
+.productos-container {
+    color: white;
+    width: 100%;
+    max-width: $ancho-maximo;
+    font-family: saenz-font;
+    display: flex;
+}
+.cumplimiento-container {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: saenz-font;
+    background-color: $color-saenz-celeste;
+    display: flex;
+    width: 100%;
+    max-width: $ancho-maximo;
+    justify-content:space-around;
+}
+.contacto-container {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: saenz-font;
+    background-color: $color-saenz;
+    display: flex;
+    width: 100%;
+    max-width: $ancho-maximo;
+    justify-content:space-around;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+.comisiones-container {
+    color: black;
+    font-family: saenz-font;
+    display: flex;
+    width: 100%;
+    max-width: $ancho-maximo;
+}
+.link-container {
+    color: black ;
+    text-align: center;
+    font-family: saenz-font;
+    display: flex;
+    width: 100%;
+    max-width: $ancho-maximo;
+    padding: 20px 0;
+    justify-content:space-around;
+}
+.mae-container {
+    color: black;
+    width: 100%;
+    max-width: $ancho-maximo;
+    font-family: saenz-font;
+    display: flex;
+}

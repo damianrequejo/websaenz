@@ -1,0 +1,18 @@
+@import 'variables-globales';
+.button-bsz {
+    font-family: saenz-font;
+    color: white;
+    text-decoration: none;
+    background-color: $color-saenz-celeste;
+    border-color: $color-saenz-celeste;
+    a {
+        color: white;
+        &:hover {
+            font-family: saenz-font;
+            color: white;
+            text-decoration: none;
+            background-color: $color-saenz-grisoscuro;
+            border-color: $color-saenz-grisoscuro;
+          }
+        }
+    }
