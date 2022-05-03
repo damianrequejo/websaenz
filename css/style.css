@@ -6,7 +6,7 @@
 .header-bsz {
   font-family: saenz-font;
   background-color: white;
-  max-width: 1600px;
+  max-width: 100%;
 }
 .header-bsz a {
   font-family: saenz-font;
@@ -21,7 +21,7 @@
 /* Ancho de Pagina */
 .footer {
   background-color: #002f6c;
-  max-width: 1600px;
+  max-width: 100%;
   font-family: saenz-font;
   color: white;
   text-decoration: none;
@@ -55,12 +55,22 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
 }
 .contacto div {
-  width: 75%;
-  max-width: 1600px;
+  width: 90%;
+  max-width: 100%;
   padding: 10px;
+}
+
+.contacto-columna1 {
+  width: 50%;
+  max-width: 100%;
+}
+
+.contacto-columna2 {
+  width: 50%;
+  max-width: 100%;
 }
 
 form {
@@ -75,7 +85,7 @@ form {
 .contacto-form {
   border-radius: 3px;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 0 0 0;
   padding: 0px;
 }
@@ -144,7 +154,7 @@ form {
 .nosotros-portada {
   height: 150px;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
 }
 .nosotros-portada img {
   height: 100%;
@@ -157,7 +167,7 @@ form {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   row-gap: 10px;
   column-gap: 10px;
 }
@@ -167,7 +177,7 @@ form {
 .cuentas-portada {
   height: 150px;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
 }
 .cuentas-portada img {
   height: 100%;
@@ -180,11 +190,11 @@ form {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
 }
 .cuentas div {
   width: 50%;
-  max-width: 1600px;
+  max-width: 100%;
   padding: 10px;
 }
 
@@ -193,7 +203,7 @@ form {
 .usuariosfinancieros-portada {
   height: 150px;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
 }
 .usuariosfinancieros-portada img {
   height: 100%;
@@ -204,11 +214,11 @@ form {
 .usuariosfinancieros {
   font-family: saenz-font;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
 }
 
 .normas {
-  max-width: 1600px;
+  max-width: 100%;
   width: 100%;
   object-fit: cover;
   justify-content: center;
@@ -221,13 +231,13 @@ form {
   gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   align-items: center;
-  max-width: 1600px;
+  max-width: 100%;
 }
 
 .usf-bcra-video {
   padding: 30px;
   justify-content: center;
-  max-width: 1600px;
+  max-width: 100%;
   width: 100%;
 }
 
@@ -238,7 +248,7 @@ form {
   /* activo sistema de grillas */
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto auto auto;
-  max-width: 1600px;
+  max-width: 100%;
   font-family: saenz-font;
   padding-top: 10px;
   column-gap: 10px;
@@ -266,33 +276,34 @@ form {
 /* Ancho de Pagina */
 .carrousel-container {
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   color: white;
   font-family: saenz-font;
   display: flex;
 }
 
 .grilla-productos-bsz {
-  max-width: 1600px;
+  max-width: 100%;
   padding: 10px;
   margin: 0px;
   background-color: #898d8d;
 }
 
 .grilla-canales-bsz {
-  max-width: 1600px;
+  max-width: 100%;
   padding: 10px;
   margin: 0;
   background-color: #002f6c;
 }
 
 .grilla-canales-row-bsz {
-  margin: 10px;
+  padding: 10px;
+  margin: 0px;
 }
 
 .texto-container {
   color: black;
-  max-width: 1600px;
+  max-width: 100%;
   font-family: saenz-font;
   display: flex;
 }
@@ -300,7 +311,7 @@ form {
 .productos-container {
   color: white;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   font-family: saenz-font;
   display: flex;
 }
@@ -313,7 +324,7 @@ form {
   background-color: #00a3e0;
   display: flex;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   justify-content: space-around;
 }
 
@@ -325,7 +336,7 @@ form {
   background-color: #002f6c;
   display: flex;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   justify-content: space-around;
 }
 .contacto-container a {
@@ -338,7 +349,7 @@ form {
   font-family: saenz-font;
   display: flex;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
 }
 
 .link-container {
@@ -347,7 +358,7 @@ form {
   font-family: saenz-font;
   display: flex;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   padding: 20px 0;
   justify-content: space-around;
 }
@@ -355,7 +366,7 @@ form {
 .mae-container {
   color: black;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   font-family: saenz-font;
   display: flex;
 }
