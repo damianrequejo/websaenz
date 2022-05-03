@@ -58,9 +58,19 @@
   max-width: 100%;
 }
 .contacto div {
-  width: 75%;
+  width: 90%;
   max-width: 100%;
   padding: 10px;
+}
+
+.contacto-columna1 {
+  width: 50%;
+  max-width: 100%;
+}
+
+.contacto-columna2 {
+  width: 50%;
+  max-width: 100%;
 }
 
 form {

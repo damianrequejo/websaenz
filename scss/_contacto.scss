@@ -6,12 +6,21 @@
     width: 100%;
     max-width: $ancho-maximo;
     div {
-        width: 75%;
+        width: 90%;
         max-width: $ancho-maximo;
         padding: 10px;
     }
 }
-form {
+.contacto-columna1 {
+    width: 50%;
+    max-width: $ancho-maximo;
+}
+.contacto-columna2 {
+    width: 50%;
+    max-width: $ancho-maximo;
+}
+
+    form {
     color: black;
     font-family: saenz-font;
     line-height: 1.3;
